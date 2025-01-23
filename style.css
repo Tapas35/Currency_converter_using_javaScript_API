@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: darkcyan;
+}
+.container{
+    border: 2px solid;
+    margin: 3rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: black;
+    min-height: 50hv;
+    width: 45vh;
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+form select,button,input{
+    width: 100%;
+    border-radius: 0.50rem;
+    border: none;
+    outline: none;
+}
+form input{
+    height: 2.5rem;
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    border: 1px solid orangered;
+    background-color: black;
+    color: yellow;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: black;
+}
+.select-container img{
+    max-width: 1.75rem;
+}
+.select-container{
+    display: flex;
+    border: 1px solid orangered;
+    border-radius: 0.5rem;
+    padding: 5px;
+}
+.msg{
+    justify-content: left;
+    color: rgb(255, 255, 12);
+    font-weight: bolder;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.dropdown i{
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    color: orangered;
+}
+form button{
+    border: 1px solid orangered;
+    height: 2rem;
+    background-color: purple;
+    color: white;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgb(114, 165, 10);
+    color: black;
+}
+.container h2 {
+    color: yellow;
+    font-weight: bolder;
+
+}  
+.amount p{
+    color: yellow;
+}  
+.select-container select{
+    background-color: black;
+    color: yellow;
+}
+.mode select{
+    background-color: black;
+    border-radius: 0.5rem;
+    color: yellow;
+    padding: 0.5rem;
+    border-color: orangered;
+    outline: none;
+}
+.from{
+    color: yellow;
+}
+.to{
+    color: yellow;
+}
+.mode{
+    justify-content: center;
+    align-items: center;
+}
+.mode h4{
+    color: yellow;
+}
